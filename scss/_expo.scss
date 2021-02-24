@@ -1,0 +1,217 @@
+.faq {
+    background: rgba(239, 239, 239, 1);
+    background-image: url('../assets/images/img-gallery/faq_charm.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 60px;
+    .container {
+        .row {
+            .col-md-6 {
+                .border-faq {
+                    width: 100px;
+                    height: 2px;
+                    background-color: #EFAC31;
+                    margin-top: 16px;
+                    text-align: center;
+                    margin-top: 16px;
+                }
+            }
+            .chart {
+                position: relative;
+                h1 {
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 36px;
+                    line-height: 133.19%;
+                    color: #744D32;
+                }
+                .card {
+                    background: #FFFFFF;
+                    border: 3px solid #EFAC31;
+                    margin-top: 30px;
+                    background: #FFFFFF;
+                    width: 501px;
+                    height: 540px;
+                    position: absolute;
+                    right: 17px;
+                    border-radius: 0;
+                    .card-body {
+                        .owl-carousel {
+                            padding: 30px 0;
+                            height: 540px;
+                            position: relative;
+                            .owl-nav {
+                                position: absolute;
+                                bottom: 21px;
+                                right: -25px;
+                                .owl-prev {
+                                    margin-right: -7px;
+                                }
+                                button {
+                                    width: 51px;
+                                    height: 68px;
+                                    background: #fff;
+                                    border-radius: 0;
+                                    color: rgba(239, 172, 49, 1);
+                                    border: none;
+                                    outline: none;
+                                    span {
+                                        font-size: 42px;
+                                    }
+                                }
+                                button:hover {
+                                    background: rgba(239, 172, 49, 1);
+                                    color: #fff;
+                                }
+                            }
+                            .owl-dots {
+                                position: absolute;
+                                bottom: 46px;
+                                right: 38%;
+                                button {
+                                    background: transparent;
+                                    border-radius: 100px;
+                                    height: 13px;
+                                    width: 13px;
+                                    margin: 3px;
+                                    outline: none;
+                                    border: 2px solid #EFAC31;
+                                    span {
+                                        display: none;
+                                    }
+                                }
+                            }
+                            .owl-dot.active {
+                                background-color: #EFAC31;
+                            }
+                        }
+                    }
+                }
+            }
+            .drop-col {
+                h1 {
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 36px;
+                    line-height: 133.19%;
+                    color: #744D32;
+                }
+                button {
+                    width: 188px;
+                    height: 50px;
+                    border-radius: 5px;
+                    outline: none;
+                    background: #744D32;
+                    border: none;
+                    color: #fff;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    text-align: center;
+                    text-transform: capitalize;
+                    color: #FFFFFF;
+                    margin-top: 20px;
+                }
+                .faq-list {
+                    margin: 64px auto 0;
+                    list-style-type: none;
+                    padding: 0;
+                    >li {
+                        width: 100%;
+                        background: rgba(239, 172, 49, 1);
+                        margin-bottom: 26px;
+                        overflow: hidden;
+                        &.open {
+                            .list-header {
+                                &:after {
+                                    transform: rotate(180deg);
+                                }
+                            }
+                            .list-content {
+                                max-height: 1000px;
+                                -webkit-transition: max-height 0.5s ease-in;
+                                -moz-transition: max-height 0.5s ease-in;
+                                -ms-transition: max-height 0.5s ease-in;
+                                -o-transition: max-height 0.5s ease-in;
+                                transition: max-height 0.5s ease-in;
+                            }
+                        }
+                    }
+                    .list-header {
+                        position: relative;
+                        padding: 20px 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #FFFFFF;
+                        cursor: pointer;
+                    }
+                    .list-content {
+                        max-height: 0;
+                        overflow: hidden;
+                        -webkit-transition: max-height 1s cubic-bezier(0, 1.05, 0, 1);
+                        -moz-transition: max-height 1s cubic-bezier(0, 1.05, 0, 1);
+                        -ms-transition: max-height 1s cubic-bezier(0, 1.05, 0, 1);
+                        -o-transition: max-height 1s cubic-bezier(0, 1.05, 0, 1);
+                        transition: max-height 1s cubic-bezier(0, 1.05, 0, 1);
+                    }
+                    .list-content-inner {
+                        padding: 0 45px 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/// expo ////
+.top-expo {
+    background: #F1EFE0;
+    padding: 120px 0 0;
+    .expo {
+        background-image: url(../assets/images/img-gallery/parda.png);
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 638px;
+        width: 100%;
+        .col-md-12 {
+            img {
+                padding: 81px;
+            }
+        }
+    }
+}
+
+////// section grapic //////@at-root
+.grapic {
+    background: #F1EFE0;
+    .container {
+        .row {
+            .col-md-12 {
+                margin-top: 120px;
+                h1 {
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 36px;
+                    line-height: 133.19%;
+                    text-align: center;
+                    color: #0B3954;
+                }
+            }
+            .top-border {
+                width: 100px;
+                height: 2px;
+                background-color: #922D29;
+                margin-top: 16px;
+                text-align: center;
+            }
+            img {
+                padding: 64px 0;
+            }
+        }
+    }
+}

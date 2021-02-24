@@ -1,0 +1,306 @@
+    @import 'dropdown';
+    @import 'menu';
+    @import 'banner';
+    @import 'expo';
+    @import'_gallery';
+    @font-face {
+        font-family: Gothic;
+        src: url("../assets/fonts/GothicA1-Regular.ttf") format("opentype");
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: SemiBold;
+        src: url("../assets/fonts/GothicA1-Medium.ttf") format("opentype");
+        font-display: swap;
+    }
+    
+    body {
+        font-family: SemiBold;
+        src: url("../assets/fonts/GothicA1-Medium.ttf") format("opentype");
+        font-display: swap;
+    }
+    
+    .account-drop {
+        top: 15px !important;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .header {
+        background-color: #744D32;
+        height: 46px;
+        justify-content: center;
+        display: flex;
+        .container-xxl {
+            .menu {
+                margin-left: -14px;
+                margin-right: 0px;
+                display: flex;
+                justify-content: space-between;
+                &_left {
+                    ul {
+                        padding: 0;
+                        display: flex;
+                        list-style-type: none;
+                        .map {
+                            background-color: #EFAC31;
+                            padding: 10.5px 17px;
+                        }
+                        li {
+                            padding: 10.5px 0;
+                            a {
+                                text-decoration: none;
+                                padding: 15px;
+                                font-family: Gothic;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 14px;
+                                line-height: 17px;
+                                color: #FFFFFF;
+                                img {
+                                    margin-right: 11px;
+                                }
+                            }
+                            .header_icons {
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+                &_right {
+                    ul {
+                        display: flex;
+                        align-items: center;
+                        list-style-type: none;
+                        li {
+                            padding: 10.5px 2px;
+                            a {
+                                text-decoration: none;
+                                font-family: Gothic;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 14px;
+                                line-height: 17px;
+                                color: #FFFFFF;
+                                img {
+                                    margin-right: 11px;
+                                }
+                            }
+                            .active-lang {
+                                font-weight: 600;
+                            }
+                            .language-slesh {
+                                padding: 1px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .header-middle {
+        background: #FFFFFF;
+        .container {
+            .row {
+                .col-md-7 {
+                    padding: 0;
+                    display: flex;
+                    h3 {
+                        font-family: SemiBold;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 24px;
+                        line-height: 30px;
+                        color: #000000;
+                        margin-top: 45px;
+                        padding: 0px 17px;
+                    }
+                }
+                .col-md-5 {
+                    justify-content: flex-end;
+                    display: flex;
+                    .enter-btn {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-align: center;
+                        text-transform: capitalize;
+                        background: #FFFFFF;
+                        width: 150px;
+                        height: 50px;
+                        border: 2px solid #744D32;
+                        box-sizing: border-box;
+                        border-radius: 10px;
+                        color: #744D32;
+                    }
+                    .phone_numbers {
+                        padding: 30px 42px;
+                        text-align: right;
+                        .register-button {
+                            width: 217px;
+                            height: 50px;
+                            background: #744D32;
+                            border-radius: 10px;
+                            border: none;
+                            outline: none;
+                            color: #fff;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 20px;
+                            text-align: center;
+                            text-transform: capitalize;
+                            img {
+                                margin-left: 8px;
+                            }
+                        }
+                        .enter-button {
+                            width: 150px;
+                            height: 50px;
+                            border: 2px solid #744D32;
+                            box-sizing: border-box;
+                            border-radius: 10px;
+                            background: #FFFFFF;
+                            outline: none;
+                            img {
+                                margin-left: 8px;
+                            }
+                        }
+                    }
+                    .phone_numbers2 {
+                        padding: 30px 0;
+                        text-align: right;
+                        .register-button {
+                            width: 217px;
+                            height: 50px;
+                            background: #744D32;
+                            border-radius: 10px;
+                            border: none;
+                            outline: none;
+                            color: #fff;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 20px;
+                            text-align: center;
+                            text-transform: capitalize;
+                            img {
+                                margin-left: 8px;
+                            }
+                        }
+                        .enter-button {
+                            width: 150px;
+                            height: 50px;
+                            border: 2px solid #744D32;
+                            box-sizing: border-box;
+                            border-radius: 10px;
+                            background: #FFFFFF;
+                            outline: none;
+                            img {
+                                margin-left: 8px;
+                            }
+                        }
+                    }
+                    p {
+                        font-family: Gothic;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #A3A3A3;
+                        padding: 35px 0 0 0;
+                        text-align: right;
+                    }
+                    h5 {
+                        font-style: normal;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #000000;
+                        font-weight: 500;
+                        text-align: right;
+                    }
+                    .border-number {
+                        border-right: 1px solid #C4C4C4;
+                        height: 60px;
+                        margin-top: 111px;
+                        margin-left: -31px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .nav-bottom {
+        background-color: #EFAC31;
+        .navbar {
+            padding: 0;
+            ul {
+                li {
+                    a {
+                        font-family: Gothic;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+                        padding: 22px 0px;
+                        margin: 0px 10px;
+                        display: inline-block;
+                    }
+                    img {
+                        height: 22px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .searchbardiv {
+        .input-group {
+            .input-search:focus {
+                box-shadow: none;
+            }
+        }
+        .btn-default {
+            background-color: #0B3954;
+            outline: none;
+            border: none;
+            border-radius: 0;
+            height: 39px;
+            strong {
+                color: #fff;
+            }
+        }
+    }
+    
+    #formsearch {
+        display: none;
+        z-index: 9;
+        position: fixed;
+    }
+    
+    .img_active {
+        width: 619px;
+        transition: all 1.3s;
+        z-index: 9;
+        height: 570px;
+        border-radius: 30px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    
+    .img_unactive {
+        width: 104px;
+        height: 570px;
+        border-radius: 30px;
+        object-fit: cover;
+        transition: all 1.3s;
+        cursor: pointer;
+        p {
+            display: none;
+        }
+    }

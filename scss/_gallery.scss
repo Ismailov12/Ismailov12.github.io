@@ -1,0 +1,81 @@
+.section-swiper-gallery {
+    background: #fff;
+    padding-bottom: 234px;
+    .container {
+        .row {
+            .header-photo-text {
+                padding: 120px 0 64px;
+                h1 {
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 36px;
+                    line-height: 133.19%;
+                    text-align: center;
+                    color: #744D32;
+                }
+                .border-photo {
+                    width: 100px;
+                    height: 2px;
+                    background-color: #EFAC31;
+                    text-align: center;
+                }
+            }
+            .block {
+                position: relative;
+                p {
+                    position: absolute;
+                    top: 9px;
+                    width: 100%;
+                    height: 93.5%;
+                    opacity: 0;
+                    background-color: rgba(239, 172, 49, 0.733);
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    transition: all ease .5s;
+                }
+                p:hover {
+                    opacity: 1;
+                    color: #fff;
+                    text-align: center;
+                    transition: all ease .5s;
+                }
+            }
+            .img-full {
+                max-width: 100%;
+                height: 100%;
+                padding: 10px 0 10px 0;
+            }
+            .btn-foote {
+                padding: 60px 0 0;
+                .btn-photo-footer {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    text-align: center;
+                    text-transform: capitalize;
+                    color: #FFFFFF;
+                    width: 150px;
+                    height: 50px;
+                    background: #744D32;
+                    border-radius: 5px;
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+
+.watch-video {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: center;
+    margin-right: -38px;
+    margin-top: -50px;
+}
